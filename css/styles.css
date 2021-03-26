@@ -1,0 +1,80 @@
+/*Universal Styling*****************/
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    max-width: 1020px;
+    margin: auto;
+}
+
+ /*Header Styling*******************/
+
+header {
+    background-color: #DAE8F8;
+    padding: 10px 20px 3px;
+}
+
+.logo-top {
+    display: inline-block;
+    width: 30%;
+}
+
+header nav {
+    display: inline-block;
+    width: 67%;
+    text-align: right;
+}
+
+
+/*Menu Styling***********************/
+
+.menu ul {
+    list-style: none;
+}
+
+.menu >ul >li {
+    display: inline-block;
+    margin-bottom: 1px;
+    position: relative;
+    vertical-align: top;
+}
+
+.menu ul li a {
+    color: #466288;
+    display: block;
+    padding: 0px 15px 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .2s;
+}
+
+.menu ul li a:hover {
+    color: #f2985b;
+    transition: .2s
+}
+
+.sub-menu {
+    display: none;
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding: 7px 8px 5px 1px;
+    top: 28px;
+    background: #dae8f8;
+}
+
+header nav a:hover {
+    border-bottom: 2px solid #f2985b;
+    transition: .2s;
+}
