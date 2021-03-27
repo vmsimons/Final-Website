@@ -6,20 +6,30 @@
   border:0;
 }
 
-body {
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+p,
+a {
   font-family: 'Raleway', sans-serif;
 }
 
 .container {
-    max-width: 1020px;
+    max-width: 1024px;
     margin: auto;
+}
+
+main {
+    min-height: 80vh;
+    margin: 4%;
 }
 
  /*Header Styling*******************/
 
 header {
     background-color: #DAE8F8;
-    padding: 10px 20px 3px;
+    padding: 18px 15px 2px;
 }
 
 .logo-top {
@@ -50,7 +60,8 @@ header nav {
 .menu ul li a {
     color: #466288;
     display: block;
-    padding: 0px 15px 5px;
+    margin: 0px 20px;
+    padding: 0px 2px 5px;
     text-decoration: none;
     font-weight: 500;
     transition: .2s;
@@ -70,11 +81,35 @@ header nav {
     position: absolute;
     width: 100%;
     padding: 7px 8px 5px 1px;
-    top: 28px;
+    top: 27px;
     background: #dae8f8;
 }
 
 header nav a:hover {
     border-bottom: 2px solid #f2985b;
     transition: .2s;
+}
+
+/*Homepage Styling*************************/
+
+.me-right-half,
+.left-half {
+    width: 45%;
+    display: inline-block;
+}
+
+.me-right-half img {
+    width: 100%;
+}
+
+.left-half {
+    vertical-align: top;
+    padding: 150px 20px;
+    float: left;
+}
+
+/*Footer Styling******************************/
+
+footer {
+    background: #dae8f8;
 }
