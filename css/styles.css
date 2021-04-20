@@ -18,9 +18,13 @@ a {
 .container {
   max-width: 950px;
   margin: 0 auto;
-  padding-top: 75px;
+  padding-top: 110px;
+  min-height: 78vh;
 }
 
+main {
+  background-color: #f5f4f4;
+}
 
  /*Header Styling*******************/
 
@@ -83,8 +87,8 @@ header nav {
   display: block;
   position: absolute;
   width: 100%;
-  padding: 0px 8px 5px 1px;
-  top: 36px;
+  padding: 5px 1px 8px 0px;
+  top: 25px;
   background: #dae8f8;
 }
 
@@ -99,31 +103,12 @@ header nav a:hover {
   left: 1px;
 }
 
-/*Homepage Styling*************************/
-
-.me-right-half,
-.left-half {
-  width: 45%;
-  display: inline-block;
-}
-
-.me-right-half img {
-  width: 100%;
-}
-
-.left-half {
-  padding: 110px 25px;
-  float: left;
-  width: 35%;
-  line-height: 20px;
-}
-
 /*Speech Bubble Styling*************************/
 
 .box {
   width: 300px;
-  margin: 50px auto;
-  background: #f5f4f4;
+  margin: 41px auto;
+  background: #ffffff;
   padding: 20px;
   text-align: left;
   font-weight: 500;
@@ -134,6 +119,7 @@ header nav a:hover {
   border-width: medium;
   border-style: solid;
   border-radius: 12px;
+  line-height: 22px;
 }
 
 .sb1:before {
@@ -154,12 +140,55 @@ header nav a:hover {
   width: 0px;
   height: 0px;
   position: absolute;
-  border-left: 7px solid #f5f4f4;
+  border-left: 7px solid #fff;
   border-right: 7px solid transparent;
-  border-top: 7px solid #f5f4f4;
+  border-top: 7px solid #fff;
   border-bottom: 7px solid transparent;
   right: -11px;
   top: 10px;
+}
+
+.box:first-line {
+  color: #f2985b;
+  font-size: 19px;
+}
+
+span {
+  font-family: 'pacifico';
+  font-size: 26px;
+}
+
+/*Homepage Styling*************************/
+
+.me-right-half,
+.left-half {
+  width: 45%;
+  display: inline-block;
+}
+
+.me-right-half img {
+  width: 100%;
+  padding: 35px 0 0 10px;
+}
+
+.left-half {
+  padding: 110px 25px;
+  float: left;
+  width: 35%;
+}
+
+.button {
+  padding: 35px 0;
+}
+
+.button p {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 60px;
+    background-color: #466288;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 /*Footer Styling******************************/
@@ -190,7 +219,7 @@ footer a:hover {
 
 .bottom {
   text-align: center;
-  padding: 21px 15px;
+  padding: 18px 15px;
 }
 
 .logo-bottom {
