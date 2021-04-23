@@ -116,6 +116,7 @@ footer p {
   text-align: center;
   color: #466288;
   font-weight: 500;
+  width: 30%;
 }
 
 footer a {
@@ -132,19 +133,20 @@ footer a:hover {
 
 .bottom {
   text-align: center;
-  padding: 18px 15px;
-}
-
-.logo-bottom {
-  float: left;
-  position: absolute;
-  left: 20px;
-  bottom: 2px;
   padding: 4px 0px;
 }
 
+.logo-bottom {
+  padding: 4px 0px;
+  width: 33%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
 .connect {
-  float: right;
+  float: none;
+  text-align: right;
 }
 
 /*Home-page-Styling**************************************************/
@@ -206,21 +208,23 @@ span {
 
 /*Main-Homepage Styling*************************/
 
-.me-right-half,
-.left-half {
-  width: 45%;
+.me-right-half, .left-half {
   display: inline-block;
+  width: 45%;
+  margin-right: 70px;
 }
 
 .me-right-half img {
-  width: 100%;
-  padding: 35px 0 0 10px;
+  width: 90%;
+  padding: 20px 0 0 10px;
 }
 
 .left-half {
-  padding: 110px 25px;
+  padding: 74px 25px;
   float: left;
   width: 35%;
+  position: relative;
+  left: 73px;
 }
 
 .button {
