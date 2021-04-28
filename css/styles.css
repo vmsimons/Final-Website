@@ -11,13 +11,22 @@ h1 {
   color: #f2985b;
 }
 
+h2 {
+  color: #f2985b;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+}
+
 p,
 a {
   font-family: 'Raleway', sans-serif;
 }
 
 .container {
-  max-width: 950px;
+  max-width: 1000px;
   margin: 0 auto;
   padding-top: 110px;
   min-height: 78vh;
@@ -229,17 +238,79 @@ span {
 
 .button {
   padding: 35px 0;
+  max-width: 20%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .button p {
   margin: 0 auto;
-  text-align: center;
   max-width: 60px;
   background-color: #466288;
   color: white;
   padding: 10px 20px;
   border-radius: 10px;
   text-transform: uppercase;
+}
+
+.button a {
+  background-color: #466288;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+/*Illustrator/Photoshop/InDesign-page-Styling********************************/
+
+.ai-examples, .ps-examples, .ps-eblast, .id-examples {
+  width: 320px;
+  display: inline-block;
+  text-align: center;
+  padding: 23px 10px 0 0;
+  vertical-align: top;
+}
+
+.ai-examples img, .ps-examples img, .id-examples img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #d3d3d38f;
+  transition: .2s;
+}
+
+.ps-eblast img {
+  width: 320px;
+  border-radius: 10px;
+  border: 1px solid #d3d3d38f;
+  transition: .2s;
+}
+
+.ai-examples img:hover,.ps-examples img:hover, .ps-eblast img:hover, .id-examples img:hover {
+  transform: scale(1.2);
+  transition: .2s;
+}
+
+.ai-examples p, .ps-examples p, .ps-eblast p, .id-examples p {
+  color: #466288;
+  font-weight: 500;
+  padding: 8px 0px 32px;
+}
+
+/*About-page-Styling****************************************************/
+
+.about h1 {
+  text-align: right;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.about-right-half {
+  max-width: 350px;
+  float: right;
+  line-height: 22px;
 }
 
 /*Contact-page-Styling**************************************************/
