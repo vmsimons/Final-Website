@@ -113,6 +113,29 @@ header nav a:hover {
   left: 1px;
 }
 
+/*Button Styling******************************/
+
+.button {
+  padding: 35px 0;
+  max-width: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.button a {
+  background-color: #466288;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.button a:hover {
+  color: #f2985b;
+}
+
 /*Footer Styling******************************/
 
 footer {
@@ -236,45 +259,19 @@ span {
   left: 73px;
 }
 
-.button {
-  padding: 35px 0;
-  max-width: 20%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.button p {
-  margin: 0 auto;
-  max-width: 60px;
-  background-color: #466288;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 10px;
-  text-transform: uppercase;
-}
-
-.button a {
-  background-color: #466288;
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 10px;
-  text-transform: uppercase;
-}
-
 /*Illustrator/Photoshop/InDesign-page-Styling********************************/
 
-.ai-examples, .ps-examples, .ps-eblast, .id-examples {
-  width: 320px;
+.ai-examples, .ps-examples, .ps-eblast, .id-examples, .portfolio-examples {
+  width: 310px;
   display: inline-block;
   text-align: center;
-  padding: 23px 10px 0 0;
+  padding: 40px 10px 0;
   vertical-align: top;
 }
 
-.ai-examples img, .ps-examples img, .id-examples img {
-  width: 320px;
-  height: 320px;
+.ai-examples img, .ps-examples img, .id-examples img, .portfolio-examples img {
+  width: 310px;
+  height: 310px;
   object-fit: cover;
   border-radius: 10px;
   border: 1px solid #d3d3d38f;
@@ -282,7 +279,7 @@ span {
 }
 
 .ps-eblast img {
-  width: 320px;
+  width: 310px;
   border-radius: 10px;
   border: 1px solid #d3d3d38f;
   transition: .2s;
@@ -299,20 +296,88 @@ span {
   padding: 8px 0px 32px;
 }
 
+/*Portfolio-page-Styling********************************/
+
+.portfolio-examples img {
+  opacity: 60%;
+}
+
+.portfolio-examples img:hover {
+  opacity: 100%;
+}
+
+.portfolio-examples p {
+  text-transform: uppercase;
+  color: #466288;
+  font-weight: 500;
+  padding: 8px 0 32px;
+  transition: .2s;
+}
+
+.portfolio-examples p:hover {
+  color: #f2985b;
+  transition: .2s;
+}
+
+.portfolio-examples a {
+  text-decoration: none;
+}
+
 /*About-page-Styling****************************************************/
 
 .about h1 {
   text-align: right;
-  padding-bottom: 20px;
+  padding: 35px 0 15px;
   font-size: 40px;
+  margin-right: 106px;
 }
 
 .about-right-half {
-  max-width: 350px;
+  max-width: 342px;
   float: right;
   line-height: 22px;
+  background: #dae8f8;
+  padding: 15px;
+  border-radius: 22px;
+  color: #466288;
 }
 
+.about-left-half img {
+    border-radius: 22px;
+    border: 6px solid #f2985b;
+}
+
+.about-me, .about-train, .about-me-izzy, .about-me-izzy2 {
+    position: absolute;
+}
+
+.about-me-izzy2 img {
+    width: 126px;
+}
+
+.about-me-izzy2 {
+    left: 161px;
+    top: 178px;
+}
+
+.about-train {
+    left: 311px;
+    top: 178px;
+}
+
+.about-me-izzy {
+    bottom: 115px;
+    left: 161px;
+}
+
+.about-me {
+    left: 431px;
+    bottom: 115px;
+}
+
+.about-me img {
+    width: 130px;
+}
 /*Contact-page-Styling**************************************************/
 
 /*Main-Contact Page Styling*************************/
@@ -386,4 +451,8 @@ textarea {
   font-weight: 500;
   border-radius: 4px;
   text-transform: uppercase;
+}
+
+.submit input:hover {
+  color: #f2985b;
 }
