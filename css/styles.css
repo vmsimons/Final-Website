@@ -9,6 +9,7 @@
 h1 {
   font-family: 'Pacifico', cursive;
   color: #f2985b;
+  padding-bottom: 15px;
 }
 
 h2 {
@@ -269,12 +270,13 @@ span {
   vertical-align: top;
 }
 
-.ai-examples img, .ps-examples img, .id-examples img, .portfolio-examples img {
+.ai-examples img, .ps-examples img, .id-examples img {
   width: 310px;
   height: 310px;
   object-fit: cover;
   border-radius: 10px;
   border: 1px solid #d3d3d38f;
+  opacity: 60%;
   transition: .2s;
 }
 
@@ -282,11 +284,12 @@ span {
   width: 310px;
   border-radius: 10px;
   border: 1px solid #d3d3d38f;
+  opacity: 60%;
   transition: .2s;
 }
 
 .ai-examples img:hover,.ps-examples img:hover, .ps-eblast img:hover, .id-examples img:hover {
-  transform: scale(1.2);
+  opacity:100%;
   transition: .2s;
 }
 
@@ -299,11 +302,11 @@ span {
 /*Portfolio-page-Styling********************************/
 
 .portfolio-examples img {
-  opacity: 60%;
-}
-
-.portfolio-examples img:hover {
-  opacity: 100%;
+  width: 310px;
+  height: 310px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #d3d3d38f;
 }
 
 .portfolio-examples p {
@@ -323,6 +326,7 @@ span {
   text-decoration: none;
 }
 
+
 /*About-page-Styling****************************************************/
 
 .about h1 {
@@ -340,6 +344,20 @@ span {
   padding: 15px;
   border-radius: 22px;
   color: #466288;
+  position: relative;
+}
+
+.rectangle {
+    color: hsl(0deg 5% 96%);
+    width: 342px;
+    height: 236px;
+    position: absolute;
+    right: 162px;
+    bottom: 178px;
+    border: 14px solid #7a8ea8;
+    border-left-color: #f0f8ff00;
+    border-top-color: #f0f8ff00;
+    border-radius: 22px;
 }
 
 .about-left-half img {

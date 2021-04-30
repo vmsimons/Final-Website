@@ -10,6 +10,7 @@
 h1 {
   font-family: 'Pacifico', cursive;
   color: #f2985b;
+	padding-bottom: 15px;
 }
 
 h2 {
@@ -181,7 +182,7 @@ footer a:hover {
 
 <div class="container">
 	<h1>Incomplete Submission</h1>
-	<p>Sorry, you have not completed all of the required fields.</p>
+	<p>Sorry, you have not completed all of the required fields.</p><br />
 	<p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
 
 	<ul>

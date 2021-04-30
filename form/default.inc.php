@@ -10,6 +10,7 @@
 h1 {
   font-family: 'Pacifico', cursive;
   color: #f2985b;
+  padding-bottom: 15px;
 }
 
 h2 {
