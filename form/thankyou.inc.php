@@ -50,6 +50,7 @@ header {
   padding: 15px 15px 0px;
   position: fixed;
   width: 100%;
+  z-index: 99;
 }
 
 .logo-top {
