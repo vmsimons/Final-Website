@@ -18,8 +18,13 @@ h2 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 20px;
+  font-size: 28px;
+  padding: 43px 0 10px;
   letter-spacing: 1px;
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 25px;
 }
 
 p,
@@ -30,8 +35,8 @@ a {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding-top: 110px;
-  min-height: 78vh;
+  padding: 110px 0 34px;
+  min-height: 75vh;
 }
 
 main {
@@ -83,6 +88,11 @@ header nav {
   text-decoration: none;
   font-weight: 500;
   transition: .2s;
+}
+
+.menu ul li a.active {
+  color: #f2985b;
+  border-bottom: 5px solid;
 }
 
 .menu ul li a:hover {
